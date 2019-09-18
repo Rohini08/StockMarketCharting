@@ -1,0 +1,79 @@
+Manifest-Version: 1.0
+Implementation-Title: StockCharting-StockExchange
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: rohini b
+Implementation-Vendor-Id: com.stockcharting
+Class-Path: lib/spring-boot-starter-actuator-2.1.7.RELEASE.jar lib/spr
+ ing-boot-starter-2.1.7.RELEASE.jar lib/spring-boot-starter-logging-2.
+ 1.7.RELEASE.jar lib/logback-classic-1.2.3.jar lib/logback-core-1.2.3.
+ jar lib/log4j-to-slf4j-2.11.2.jar lib/log4j-api-2.11.2.jar lib/jul-to
+ -slf4j-1.7.26.jar lib/javax.annotation-api-1.3.2.jar lib/snakeyaml-1.
+ 23.jar lib/spring-boot-actuator-autoconfigure-2.1.7.RELEASE.jar lib/s
+ pring-boot-actuator-2.1.7.RELEASE.jar lib/jackson-databind-2.9.9.jar 
+ lib/jackson-annotations-2.9.0.jar lib/jackson-core-2.9.9.jar lib/spri
+ ng-context-5.1.9.RELEASE.jar lib/jackson-datatype-jsr310-2.9.9.jar li
+ b/micrometer-core-1.1.5.jar lib/HdrHistogram-2.1.9.jar lib/LatencyUti
+ ls-2.0.3.jar lib/mysql-connector-java-8.0.17.jar lib/spring-boot-star
+ ter-data-jpa-2.1.7.RELEASE.jar lib/spring-boot-starter-aop-2.1.7.RELE
+ ASE.jar lib/spring-aop-5.1.9.RELEASE.jar lib/aspectjweaver-1.9.4.jar 
+ lib/spring-boot-starter-jdbc-2.1.7.RELEASE.jar lib/HikariCP-3.2.0.jar
+  lib/spring-jdbc-5.1.9.RELEASE.jar lib/javax.transaction-api-1.3.jar 
+ lib/jaxb-api-2.3.1.jar lib/javax.activation-api-1.2.0.jar lib/hiberna
+ te-core-5.3.10.Final.jar lib/jboss-logging-3.3.2.Final.jar lib/javax.
+ persistence-api-2.2.jar lib/javassist-3.23.2-GA.jar lib/byte-buddy-1.
+ 9.16.jar lib/antlr-2.7.7.jar lib/jandex-2.0.5.Final.jar lib/classmate
+ -1.4.0.jar lib/dom4j-2.1.1.jar lib/hibernate-commons-annotations-5.0.
+ 4.Final.jar lib/spring-data-jpa-2.1.10.RELEASE.jar lib/spring-data-co
+ mmons-2.1.10.RELEASE.jar lib/spring-orm-5.1.9.RELEASE.jar lib/spring-
+ tx-5.1.9.RELEASE.jar lib/spring-beans-5.1.9.RELEASE.jar lib/slf4j-api
+ -1.7.26.jar lib/spring-aspects-5.1.9.RELEASE.jar lib/spring-boot-star
+ ter-web-2.1.7.RELEASE.jar lib/spring-boot-starter-json-2.1.7.RELEASE.
+ jar lib/jackson-datatype-jdk8-2.9.9.jar lib/jackson-module-parameter-
+ names-2.9.9.jar lib/spring-boot-starter-tomcat-2.1.7.RELEASE.jar lib/
+ tomcat-embed-core-9.0.22.jar lib/tomcat-embed-el-9.0.22.jar lib/tomca
+ t-embed-websocket-9.0.22.jar lib/hibernate-validator-6.0.17.Final.jar
+  lib/validation-api-2.0.1.Final.jar lib/spring-web-5.1.9.RELEASE.jar 
+ lib/spring-webmvc-5.1.9.RELEASE.jar lib/spring-expression-5.1.9.RELEA
+ SE.jar lib/spring-boot-starter-web-services-2.1.7.RELEASE.jar lib/saa
+ j-impl-1.5.0.jar lib/javax.xml.soap-api-1.4.0.jar lib/mimepull-1.9.11
+ .jar lib/stax-ex-1.8.jar lib/jaxws-api-2.3.1.jar lib/spring-oxm-5.1.9
+ .RELEASE.jar lib/spring-ws-core-3.0.7.RELEASE.jar lib/spring-xml-3.0.
+ 7.RELEASE.jar lib/commons-io-2.5.jar lib/spring-cloud-starter-netflix
+ -zuul-2.1.2.RELEASE.jar lib/spring-cloud-netflix-zuul-2.1.2.RELEASE.j
+ ar lib/spring-cloud-netflix-hystrix-2.1.2.RELEASE.jar lib/httpclient-
+ 4.5.9.jar lib/httpcore-4.4.11.jar lib/commons-codec-1.11.jar lib/netf
+ lix-commons-util-0.3.0.jar lib/javax.inject-1.jar lib/spring-cloud-st
+ arter-2.1.2.RELEASE.jar lib/spring-cloud-context-2.1.2.RELEASE.jar li
+ b/spring-security-rsa-1.0.7.RELEASE.jar lib/bcpkix-jdk15on-1.60.jar l
+ ib/bcprov-jdk15on-1.60.jar lib/spring-cloud-starter-netflix-hystrix-2
+ .1.2.RELEASE.jar lib/spring-cloud-netflix-ribbon-2.1.2.RELEASE.jar li
+ b/hystrix-core-1.5.18.jar lib/hystrix-serialization-1.5.18.jar lib/ja
+ ckson-module-afterburner-2.9.9.jar lib/hystrix-metrics-event-stream-1
+ .5.18.jar lib/hystrix-javanica-1.5.18.jar lib/commons-lang3-3.8.1.jar
+  lib/asm-5.0.4.jar lib/guava-15.0.jar lib/rxjava-reactive-streams-1.2
+ .1.jar lib/reactive-streams-1.0.2.jar lib/spring-cloud-starter-netfli
+ x-ribbon-2.1.2.RELEASE.jar lib/ribbon-2.3.0.jar lib/ribbon-transport-
+ 2.3.0.jar lib/rxnetty-contexts-0.4.9.jar lib/rxnetty-servo-0.4.9.jar 
+ lib/rxnetty-0.4.9.jar lib/ribbon-core-2.3.0.jar lib/commons-lang-2.6.
+ jar lib/ribbon-httpclient-2.3.0.jar lib/commons-collections-3.2.2.jar
+  lib/jersey-client-1.19.1.jar lib/jersey-core-1.19.1.jar lib/jsr311-a
+ pi-1.1.1.jar lib/jersey-apache-client4-1.19.1.jar lib/ribbon-loadbala
+ ncer-2.3.0.jar lib/netflix-statistics-0.1.1.jar lib/rxjava-1.3.8.jar 
+ lib/spring-cloud-starter-netflix-archaius-2.1.2.RELEASE.jar lib/sprin
+ g-cloud-netflix-archaius-2.1.2.RELEASE.jar lib/archaius-core-0.7.6.ja
+ r lib/jsr305-3.0.1.jar lib/commons-configuration-1.8.jar lib/zuul-cor
+ e-1.3.1.jar lib/servo-core-0.12.21.jar lib/spring-cloud-starter-openf
+ eign-2.1.2.RELEASE.jar lib/spring-cloud-openfeign-core-2.1.2.RELEASE.
+ jar lib/feign-form-spring-3.8.0.jar lib/feign-form-3.8.0.jar lib/comm
+ ons-fileupload-1.4.jar lib/spring-cloud-commons-2.1.2.RELEASE.jar lib
+ /spring-security-crypto-5.1.6.RELEASE.jar lib/feign-core-10.2.3.jar l
+ ib/feign-slf4j-10.2.3.jar lib/feign-hystrix-10.2.3.jar lib/spring-boo
+ t-devtools-2.1.7.RELEASE.jar lib/spring-boot-2.1.7.RELEASE.jar lib/sp
+ ring-boot-autoconfigure-2.1.7.RELEASE.jar lib/spring-core-5.1.9.RELEA
+ SE.jar lib/spring-jcl-5.1.9.RELEASE.jar
+Build-Jdk: 1.8.0_111
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/stockcharting-stockexchange
+Created-By: Maven Integration for Eclipse
+Main-Class: com.cts.dockerwebdemo.DockerwebdemoApplication
+
