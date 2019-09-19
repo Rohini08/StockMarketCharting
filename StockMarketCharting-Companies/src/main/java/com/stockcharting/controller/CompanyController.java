@@ -18,7 +18,8 @@ public class CompanyController {
 	@Autowired
 	private CompanyService companyService;
 	
-	@PostMapping("/company") Company create(@RequestBody Company company) {
+	@PostMapping("/company")
+	Company create(@RequestBody Company company) {
 		 
 
 		 return companyService.save(company); }
@@ -26,7 +27,10 @@ public class CompanyController {
 		
 		 
 		 
-		 @GetMapping("/company") Iterable<Company> read() {return companyService.findAll();}
+		 @GetMapping("/company")
+		 Iterable<Company> read() {
+			 return companyService.findAll();
+			 }
 		 
 		 
 		 @PutMapping("/company") Company update(@RequestBody Company company) { return

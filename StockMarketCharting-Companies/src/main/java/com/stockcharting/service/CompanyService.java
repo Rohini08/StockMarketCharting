@@ -10,6 +10,6 @@ public interface CompanyService {
 
 	Iterable<Company> findAll();
 
-	void deleteById(String id);
+	boolean deleteById(String id);
 
 }

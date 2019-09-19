@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: StockCharting-ConfirmUser
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Admin
+Built-By: rohini b
 Implementation-Vendor-Id: com.example
 Class-Path: lib/spring-boot-starter-data-jpa-2.1.7.RELEASE.jar lib/spr
  ing-boot-starter-aop-2.1.7.RELEASE.jar lib/spring-aop-5.1.9.RELEASE.j
@@ -33,7 +33,7 @@ Class-Path: lib/spring-boot-starter-data-jpa-2.1.7.RELEASE.jar lib/spr
  5.1.9.RELEASE.jar lib/spring-webmvc-5.1.9.RELEASE.jar lib/spring-expr
  ession-5.1.9.RELEASE.jar lib/mysql-connector-java-8.0.17.jar lib/spri
  ng-core-5.1.9.RELEASE.jar lib/spring-jcl-5.1.9.RELEASE.jar
-Build-Jdk: 1.8.0_144
+Build-Jdk: 1.8.0_111
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/StockCharting-ConfirmUser
 Created-By: Maven Integration for Eclipse

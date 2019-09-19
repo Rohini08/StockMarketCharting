@@ -10,6 +10,7 @@ import com.stockcharting.entities.Company;
 
 @Repository("companyRepos")
 public interface CompanyRepos extends CrudRepository<Company, Integer>{
+	
 @Modifying
 @Transactional
 void deleteByname(String name);

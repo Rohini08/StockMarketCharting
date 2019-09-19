@@ -25,9 +25,11 @@ public class CompanyServiceImpl implements CompanyService {
 	}
 
 	@Override
-	public void deleteById(String id) {
+	public boolean deleteById(String id) {
 		// TODO Auto-generated method stub
 		companyRepos.deleteByname(id);
+		
+		return true;
 	}
 
 }
